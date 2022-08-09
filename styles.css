@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    font-family: 'VT323', monospace;
+    background-color: #495C83;
+    color: #C8B6E2;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 3rem;
+    text-shadow: rgba(18, 17, 17, 0.606) 2px 2px 5px;
+}
+
+h2 {
+    margin: 2rem;
+    font-size: 2rem;
+    text-shadow: rgba(18, 17, 17, 0.606) 2px 2px 5px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+p{
+    font-size: 1.5rem;
+    text-shadow: rgba(18, 17, 17, 0.606) 2px 2px 5px;
+}
+
+h3{
+    color: rgb(28, 8, 77);
+
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 1rem auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 5em;
+    height: 2em;
+    background-color: #A8A4CE;
+    border: none;
+    font-family: 'VT323', monospace;
+    font-size: 24px;
+    color: rgb(56, 3, 124);
+}
+
+input[type=number]:focus{
+    background-color: #C8B6E2;
+}
+
+button{
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #7A86B6;
+    font-size: 18px;
+    padding: 1rem;
+    margin: 2px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover{
+    background-color: #c2ccf1;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NFT Pixel Art Sketch</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>NFT Pixel Art Sketch</h1>
+
+    <h2>Enter Grid Size</h2>
+    <form id="sizePicker">
+        <p>Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">  X
+        Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="1"> px</p>
+        <h3>Tips: The recommended NFT pixel art size is 32 x 32 px!</h3>
+        <button id="submit">SUBMIT</button>
+    </form>
+
+    <h2>Select Your Pen Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+    <button id="remove-grid">RESET</button>
+    <script src="designs.js"></script>
+</body>
+</html>
