@@ -4,7 +4,7 @@ const color = document.getElementById("colorPicker");
 const table = document.getElementById("pixelCanvas");
 const height = document.getElementById("inputHeight");
 const width = document.getElementById("inputWidth");
-let removeGridBtn = document.getElementById("remove-grid");
+const removeGridBtn = document.getElementById("remove-grid");
 
 //when size is submitted by the user, call makeGrid()
 $('#sizePicker').submit(function (event) {
